@@ -1,4 +1,4 @@
-# minizip-ng_example
+# A basic minizip-ng example
 [Minizip-ng](https://github.com/zlib-ng/minizip-ng) is a fork of [Minizip](https://github.com/madler/zlib/tree/master/contrib/minizip); the zip manipulation library found in the zlib distribution.
 
 I created this repository as a basic example that showcases some of minizip-ng's capabilities and how to use them.
