@@ -16,5 +16,5 @@ The code covers the use of [streams](https://github.com/zlib-ng/minizip-ng/blob/
 To compile and run the code, you need to also have minizip-ng. You could build it as a static library to keep the process simple. On Linux with gcc, I use something like:
 
 ```
-gcc  -I/path/to/minizip-ng mzip_example.c my_zip_archive.c /path/to/libminizip-ng.a -o minizip-ng_example
+gcc  -I/path/to/minizip-ng example.c my_zip_archive.c /path/to/libminizip-ng.a -o minizip-ng_example
 ```
