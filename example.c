@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
     my_zip_archive target_archive = { 0 };
 
     if (argc < 3) {
-        ret = fprintf(stderr, "Usage: %s <source file> <target file> [--normal|--memory|--bufstream]\n", argv[0]);
+        fprintf(stderr, "Usage: %s <source file> <target file> [--normal|--memory|--bufstream]\n", argv[0]);
         goto done;
     }
 
@@ -131,8 +131,8 @@ int main(int argc, char *argv[])
             archive_mode = MODE_MEMORY;
         }
         else {
-            ret = fprintf(stderr, "Invalid parameter.\n");
-            ret = fprintf(stderr, "Usage: %s <source file> <target file> [--normal|--memory|--bufstream]\n", argv[0]);
+            fprintf(stderr, "Invalid parameter.\n");
+            fprintf(stderr, "Usage: %s <source file> <target file> [--normal|--memory|--bufstream]\n", argv[0]);
             goto done;
         }
     }

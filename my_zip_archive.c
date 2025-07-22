@@ -63,6 +63,7 @@ static int32_t write_buf_to_file(void *mem_stream, const char *file_path)
 {
     int32_t ret = RET_OK;
 
+    /* either of these two methods should work fine */
 #if 0
     const uint8_t *buf  = NULL;
     int32_t buf_size    = 0;
